@@ -128,7 +128,7 @@ input{
   text-align: center;
 }
 h2.question{
-  width:39%;
+  width:38%;
   border: 2px solid palegoldenrod;
   margin-left: 60%;
   opacity: 0.9;
@@ -266,4 +266,13 @@ button{
   position: relative;
   opacity: 0.9;
   margin-top: 10px;
+}
+.quiz-container{
+  display: table;
+  justify-items: center;
+}
+
+#question-remove{
+  border: none;
+  margin: 0;
 }

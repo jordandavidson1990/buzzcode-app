@@ -22,9 +22,11 @@ function AnswerOption(props) {
         
         </input>
         <Animated id="animation" animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}> 
+        <div className="quiz-container">
         <h5>{props.answerContent}</h5>
         <img 
         id="image" src={props.image} alt="poster"/>
+        </div>
         </Animated>
         
         
