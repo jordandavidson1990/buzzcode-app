@@ -1,0 +1,269 @@
+.App {
+  text-align: center;
+}
+/* 
+* {    
+  box-sizing: border-box;   
+  margin: 0 10px;    
+  padding: 0;  
+} */
+
+html {    
+  box-sizing: border-box;  
+}    
+*, *:before, *:after {    
+  box-sizing: inherit;  
+}
+
+:root {    
+  font-size: calc(1vw + 1vh + .5vmin);  
+}
+
+body {    
+  line-height: 1.5;     
+  font: 1rem/1.6 sans-serif;  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  position:relative;
+  max-width:800px;
+  margin:0 auto;
+  background:#fff;
+  border-radius: 3px;
+}
+
+body{
+  background-image: linear-gradient( #9AD2CB,#D7EBBA );
+  background-color: lightgoldenrodyellow;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  font: helvetica;
+}
+
+@keyframes example{
+  0%{background-color:#FEFFBE;}
+  25%{background-color: #EBD494;}
+  50%{background-color: #D7EBBA}
+  100%{background-color:#9AD2CB;}
+}
+.header{
+  /* width:100px; */
+  /* height:100px;  */
+  /* background-color:#DCBF85; */
+  animation-name: example;
+  animation-duration:8s;
+}
+
+.answerOptions{
+  width:80%;
+  float: left;
+}
+img#image{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 3px solid darkgoldenrod;
+}
+
+a.input{
+  cursor: pointer;
+}
+
+input{
+  display: none;
+  cursor: pointer;
+}
+.radioCustomLabel{
+  /* margin-top:40px; */
+  cursor: pointer;
+}
+.header{
+  top:0px;
+  border:2px solid olive;
+  float: right;
+  margin-bottom:5px;
+  background-color: #EBD494;
+  position:sticky;
+  padding:10px;
+  margin-right:10px;
+  opacity: 0.8;
+}
+.question{
+  animation-name: example;
+  animation-duration:8s;
+  background-color:#DCBF85;
+  position:fixed;
+  top:80px;
+  height:auto;
+  width:100%;
+  text-align: center;
+}
+h2.question{
+  width:39%;
+  border: 2px solid palegoldenrod;
+  margin-left: 60%;
+  opacity: 0.9;
+  top: 30%;
+}
+
+ /* .quest{
+   display:none; 
+ } */
+.result-image{
+  max-width: 50%;
+  display: flex;
+  margin: auto;
+  border: 2px solid olive;
+  border-collapse: unset;
+  position: relative;
+}
+
+h4{
+  margin-left:4px;
+  text-align: center;
+}
+img{
+  max-width: 400px;
+  margin:auto;
+}
+.footer{
+  text-align: center;
+  background: #c2c2c2;
+  opacity: 0.8;
+  clear:both;
+}
+.description{
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 20px;
+  font-family: -webkit-body;
+  background: beige;
+  position: sticky;
+  opacity: 0.8;
+  border-radius: 10%;
+  padding:10px;
+}
+h5{
+  background: #DCBF85;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid olive;
+}
+.result{
+  display: inline-block
+}
+.logo{
+  float: left;
+  width: 100%;
+  height: 59px;
+  margin: 0;
+  background-position: 0px -830px;
+  background-color: #e5e568;
+  opacity: 0.9;
+}
+#buzzcode{
+  background-color: #f7fe93;
+  /* border-bottom: 2px solid beige; */
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.percent-count {
+  box-sizing: border-box;
+  width: 20%;
+  height: 0px;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  color: slategrey;
+  background-color: aliceblue;
+  border-radius: 90px;
+}
+.progress-bar{
+  width:500px;
+  height:26px;
+  background-color:#bbb;
+  border-radius:13px;
+  margin: auto;
+}
+
+.progress{
+  width:500px;
+  height:20px;
+  border-radius:10px;
+  background-color: #EBD494;
+}
+
+.image-logo{
+  opacity: 0.8;
+  margin-left: 51%;
+  margin-top: 24%;
+  position: fixed;
+  margin-right: 10px;
+  float: right;
+  border-radius: 90%;
+}
+.logo{
+  margin-bottom:10px;
+}
+#result-title{
+    border: 2px solid olive;
+    background-color: #EBD494;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+div.animated.bounceInLeft{
+  width: 50%;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 90px;
+  border: 1px olive solid;
+  background: #EBD494;
+  position: relative;
+  opacity: 0.9;
+  margin-top: 10px;
+}
