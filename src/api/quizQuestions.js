@@ -1,6 +1,6 @@
 var quizQuestions = [
     {
-        question: "What film do you prefer?",
+        question: "Which film do you prefer?",
         answers: [
             {
                 type: "Italy", 
