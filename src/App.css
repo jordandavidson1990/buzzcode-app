@@ -1,12 +1,9 @@
 .App {
   text-align: center;
 }
-/* 
-* {    
-  box-sizing: border-box;   
-  margin: 0 10px;    
-  padding: 0;  
-} */
+*{
+  text-size-adjust: auto;
+}
 
 html {    
   box-sizing: border-box;  
